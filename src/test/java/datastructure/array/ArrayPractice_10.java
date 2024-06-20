@@ -2,19 +2,19 @@ package datastructure.array;
 
 public class ArrayPractice_10 {
 
-	// Find the minimum element in an array
-	public static int findMin(int[] arr) {
-	    int min = arr[0];
+	// Find the maximum element in an array
+	public static int findMax(int[] arr) {
+	    int max = arr[0];
 	    for (int num : arr) {
-	        if (num < min) {
-	            min = num;
+	        if (num > max) {
+	            max = num;
 	        }
 	    }
-	    return min;
+	    return max;
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 5, 7, 12, 3, 9, 25 };
-		System.out.println("Minimum Element: " + findMin(array));
+		int[] array = { 5, 7, 22, 4, 19 };
+		System.out.println("Maximum Element: " + findMax(array));
 	}
 }
