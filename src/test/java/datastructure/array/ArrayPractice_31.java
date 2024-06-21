@@ -15,5 +15,8 @@ public class ArrayPractice_31 {
 	public static void main(String[] args) {
 		int[] arrToSort = { 5, 4, 3, 2, 1 };
 		System.out.println("Is Sorted Ascending: " + isSortedAscending(arrToSort));
+		
+		int[] arrToSort2 = { 1, 2, 3, 4, 5 };
+		System.out.println("Is Sorted Descending: " + isSortedAscending(arrToSort2));
 	}
 }
